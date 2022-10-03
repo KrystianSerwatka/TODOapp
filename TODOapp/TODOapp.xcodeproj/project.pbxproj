@@ -11,11 +11,11 @@
 		08374C9528E9933A007E67BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08374C9428E9933A007E67BE /* SceneDelegate.swift */; };
 		08374C9728E9933A007E67BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08374C9628E9933A007E67BE /* ViewController.swift */; };
 		08374C9C28E9933B007E67BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08374C9B28E9933B007E67BE /* Assets.xcassets */; };
-		08374CAA28E998CF007E67BE /* TaskView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08374CA928E998CF007E67BE /* TaskView.storyboard */; };
 		08374CAC28E998E4007E67BE /* CategoryView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08374CAB28E998E4007E67BE /* CategoryView.storyboard */; };
 		08374CAE28E998FF007E67BE /* SubcategoryView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08374CAD28E998FF007E67BE /* SubcategoryView.storyboard */; };
 		08374CB028E9A03D007E67BE /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08374CAF28E9A03D007E67BE /* TaskViewController.swift */; };
 		08374CB228E9A955007E67BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08374CB128E9A955007E67BE /* Main.storyboard */; };
+		08B00D2428EB71D200470CAE /* TaskView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B00D2328EB71D200470CAE /* TaskView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +25,11 @@
 		08374C9628E9933A007E67BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		08374C9B28E9933B007E67BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08374CA028E9933B007E67BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08374CA928E998CF007E67BE /* TaskView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskView.storyboard; sourceTree = "<group>"; };
 		08374CAB28E998E4007E67BE /* CategoryView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CategoryView.storyboard; sourceTree = "<group>"; };
 		08374CAD28E998FF007E67BE /* SubcategoryView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SubcategoryView.storyboard; sourceTree = "<group>"; };
 		08374CAF28E9A03D007E67BE /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		08374CB128E9A955007E67BE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		08B00D2328EB71D200470CAE /* TaskView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				08374CB128E9A955007E67BE /* Main.storyboard */,
-				08374CA928E998CF007E67BE /* TaskView.storyboard */,
+				08B00D2328EB71D200470CAE /* TaskView.storyboard */,
 				08374CAB28E998E4007E67BE /* CategoryView.storyboard */,
 				08374CAD28E998FF007E67BE /* SubcategoryView.storyboard */,
 			);
@@ -158,11 +158,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08374CAA28E998CF007E67BE /* TaskView.storyboard in Resources */,
 				08374CB228E9A955007E67BE /* Main.storyboard in Resources */,
 				08374CAE28E998FF007E67BE /* SubcategoryView.storyboard in Resources */,
 				08374C9C28E9933B007E67BE /* Assets.xcassets in Resources */,
 				08374CAC28E998E4007E67BE /* CategoryView.storyboard in Resources */,
+				08B00D2428EB71D200470CAE /* TaskView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
