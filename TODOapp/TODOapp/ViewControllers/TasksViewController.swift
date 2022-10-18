@@ -9,6 +9,13 @@ import UIKit
 
 class TasksViewController: UITableViewController {
 
+    @IBSegueAction func showDetailsTaskView(_ coder: NSCoder) -> DetailsTaskView? {
+        guard let indexPath = tableView.indexPathForSelectedRow
+        	else { fatalError("Nothing selected!") }
+        let task = TasksLibrary.tasks[indexPath.row]
+    
+        return DetailsTaskView(coder: coder, task: task)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
     }

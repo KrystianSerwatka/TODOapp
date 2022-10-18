@@ -20,7 +20,7 @@
 		087AFF2128FEBB42009C6B3D /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087AFF2028FEBB42009C6B3D /* Categories.swift */; };
 		087AFF2328FEBC51009C6B3D /* CategoriesView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087AFF2228FEBC51009C6B3D /* CategoriesView.storyboard */; };
 		087AFF2528FEC3FF009C6B3D /* DetailsCategoryView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087AFF2428FEC3FF009C6B3D /* DetailsCategoryView.storyboard */; };
-		087AFF2728FEC44B009C6B3D /* DetailsTaskView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087AFF2628FEC44B009C6B3D /* DetailsTaskView.storyboard */; };
+		087AFF2928FEE807009C6B3D /* DetailsTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087AFF2828FEE807009C6B3D /* DetailsTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		087AFF2028FEBB42009C6B3D /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		087AFF2228FEBC51009C6B3D /* CategoriesView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CategoriesView.storyboard; sourceTree = "<group>"; };
 		087AFF2428FEC3FF009C6B3D /* DetailsCategoryView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailsCategoryView.storyboard; sourceTree = "<group>"; };
-		087AFF2628FEC44B009C6B3D /* DetailsTaskView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailsTaskView.storyboard; sourceTree = "<group>"; };
+		087AFF2828FEE807009C6B3D /* DetailsTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				08374CAB28E998E4007E67BE /* TasksView.storyboard */,
 				087AFF2228FEBC51009C6B3D /* CategoriesView.storyboard */,
 				087AFF2428FEC3FF009C6B3D /* DetailsCategoryView.storyboard */,
-				087AFF2628FEC44B009C6B3D /* DetailsTaskView.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -102,6 +101,7 @@
 				087AFF1C28FEB5D6009C6B3D /* TasksLibrary.swift */,
 				087AFF1E28FEBB29009C6B3D /* CategoriesViewController.swift */,
 				087AFF2028FEBB42009C6B3D /* Categories.swift */,
+				087AFF2828FEE807009C6B3D /* DetailsTaskView.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -174,7 +174,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				087AFF2328FEBC51009C6B3D /* CategoriesView.storyboard in Resources */,
-				087AFF2728FEC44B009C6B3D /* DetailsTaskView.storyboard in Resources */,
 				08374CB228E9A955007E67BE /* Main.storyboard in Resources */,
 				08374C9C28E9933B007E67BE /* Assets.xcassets in Resources */,
 				087AFF2528FEC3FF009C6B3D /* DetailsCategoryView.storyboard in Resources */,
@@ -194,6 +193,7 @@
 				087AFF1F28FEBB29009C6B3D /* CategoriesViewController.swift in Sources */,
 				087AFF1B28FEB1A1009C6B3D /* TasksViewController.swift in Sources */,
 				087AFF1728FEADC2009C6B3D /* Task.swift in Sources */,
+				087AFF2928FEE807009C6B3D /* DetailsTaskView.swift in Sources */,
 				08374C9328E9933A007E67BE /* AppDelegate.swift in Sources */,
 				087AFF2128FEBB42009C6B3D /* Categories.swift in Sources */,
 				08374C9528E9933A007E67BE /* SceneDelegate.swift in Sources */,
