@@ -17,24 +17,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="eaW-4X-Fxb">
-                                <rect key="frame" x="139" y="385.5" width="136" height="125"/>
+                                <rect key="frame" x="160" y="409" width="94.5" height="78"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Flx-WU-Mm2">
-                                        <rect key="frame" x="0.0" y="0.0" width="136" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="94.5" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Add Category"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2W-1d-bMi">
-                                        <rect key="frame" x="0.0" y="47" width="136" height="31"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Add Subcategory"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XU1-cX-hw2">
-                                        <rect key="frame" x="0.0" y="94" width="136" height="31"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Add Task"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Tasks"/>
                                         <connections>
-                                            <action selector="AddTaskButtonPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="yqs-d8-wJl"/>
+                                            <action selector="TasksButtonPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="3eI-6i-ecI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAC-dT-bES">
+                                        <rect key="frame" x="0.0" y="47" width="94.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Categories"/>
+                                        <connections>
+                                            <action selector="CategoriesButtonPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="uKM-LV-aEx"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -50,22 +48,33 @@
                     </view>
                     <navigationItem key="navigationItem" id="PnA-5N-D3N"/>
                     <connections>
-                        <segue destination="ZEp-lp-KfM" kind="show" identifier="TaskVC" id="PEZ-4R-Z7v"/>
+                        <segue destination="OuE-EG-Kub" kind="show" identifier="TasksVC" id="j4E-VB-QA3"/>
+                        <segue destination="xad-BJ-b6E" kind="show" identifier="CategoriesVC" id="U5l-Xg-JMg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="133" y="60"/>
         </scene>
-        <!--TaskVC-->
-        <scene sceneID="4JS-vb-WY9">
+        <!--TasksVC-->
+        <scene sceneID="M9k-qN-4eN">
             <objects>
-                <viewControllerPlaceholder storyboardName="TaskView" referencedIdentifier="TaskVC" id="ZEp-lp-KfM" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Dlp-a1-d3L"/>
+                <viewControllerPlaceholder storyboardName="TasksView" referencedIdentifier="TasksVC" id="OuE-EG-Kub" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="fpU-9e-JhR"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6Cx-T5-FyQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hG6-hC-wFj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="725" y="60"/>
+            <point key="canvasLocation" x="741" y="0.0"/>
+        </scene>
+        <!--CategoriesVC-->
+        <scene sceneID="zfq-tx-NHz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CategoriesView" referencedIdentifier="CategoriesVC" id="xad-BJ-b6E" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="EWa-qw-tGx"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uji-Jo-AtA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="60"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mbx-Ry-xsi">

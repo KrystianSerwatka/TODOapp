@@ -14,13 +14,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func AddTaskButtonPressed(_ sender: Any) {
-        performSegue(withIdentifier: "TaskVC", sender: self)
+    @IBAction func TasksButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "TasksVC", sender: self)
+    }
+
+    @IBAction func CategoriesButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "CategoriesVC", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "TaskVC" {
-            guard segue.destination is TaskViewController else { return }
+        if segue.identifier == "TasksVC" || segue.identifier == "CategoriesVC"  {
+            guard segue.destination is TasksViewController, segue.destination is CategoriesViewController else { return }
         }
     }
 }
